@@ -31,3 +31,4 @@ odev-1-gulalicelik
     
 ```
 ## Tanım
+[Axios](https://github.com/axios/axios) kütüphanesini kullanarak [user](https://jsonplaceholder.typicode.com/users/1)  ve [post](https://jsonplaceholder.typicode.com/posts?userId=1) endpointlerine  **async - await**  anahtar kelimeleri asenkron istek atıp gelen verileri birleştirip default olarak export eden bir [service.js](https://github.com/patika-hepsiburada-react-bootcamp/odev-1-gulalicelik/blob/master/src/lib/service.js)  dosyasına sahiptir.Bu dosya [app.js](https://github.com/patika-hepsiburada-react-bootcamp/odev-1-gulalicelik/blob/master/src/app.js) içine import edilip  **getData()** fonksiyonu çalıştırılıp gelen sonuç loglanmıştır.
